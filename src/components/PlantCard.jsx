@@ -80,10 +80,8 @@ const PlantCard = () => {
                     src={plant.imgUrl}
                     alt={plant.name}
                     className="
-                    w-[150px]
-                    h-[150px]
-                    object-contain
-                    drop-shadow-[0_20px_25px_rgba(0,0,0,0.5)]
+                    w-[180px]
+                    h-[180px]                   
                   "
                   />
                 </div>
