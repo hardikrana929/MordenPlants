@@ -7,7 +7,7 @@ import SectionTitle from "./SectionTitle";
 import Button from "./Button";
 const HeroBanner = () => {
   return (
-    <>
+    <div className="main-bg pb-5">
       <section className="min-h-screen px-5 md:px-10 lg:px-16 pt-32 flex items-start relative">
         <div className="grid lg:grid-cols-2 gap-10 items-center w-full">
           <div>
@@ -73,9 +73,8 @@ const HeroBanner = () => {
               <p className="text-sm text-white">Indoor Plant</p>
 
               <h3 className="text-2xl mt-2 text-gray-300 flex items-center gap-5">
-                Aglaonema plant{" "}
-                <span>
-                  {" "}
+                Aglaonema plant
+                <span>                  
                   <IoIosArrowForward />
                 </span>
               </h3>
@@ -139,7 +138,7 @@ const HeroBanner = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
