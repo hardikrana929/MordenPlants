@@ -86,7 +86,6 @@ const PlantCard = () => {
                   />
                 </div>
 
-                
                 <div className="px-5 pb-5 mt-2 text-justify text-gray-200 ">
                   <h2 className=" text-2xl font-medium leading-tight">
                     {plant.name}
