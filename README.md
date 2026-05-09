@@ -1,16 +1,192 @@
-# React + Vite
+# Plant Website 🌿
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive plant e-commerce website built using **React.js** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🌱 Modern responsive UI
+- 🛒 Plant product cards
+- 🎨 Tailwind CSS styling
+- ⚡ Fast React-based frontend
+- 📱 Fully responsive design
+- 🔍 Reusable components
+- 💚 Clean and minimal interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Tailwind CSS
+- JavaScript (ES6+)
+- React Icons
+- Vite
+
+---
+
+## 📂 Folder Structure
+
+```bash
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── HeroBanner.jsx
+│   ├── PlantCard.jsx
+│   ├── SectionTitle.jsx
+│   └── Button.jsx
+│
+├── assets/
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/hardikrana929/MordenPlants.git
+```
+
+---
+
+## 2. Navigate to Project Folder
+
+```bash
+cd MordenPlants
+```
+
+---
+
+## 3. Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 4. Start Development Server
+
+```bash
+npm run dev
+```
+
+App will run on:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+# 🏗️ Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+# 👀 Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
+
+# 🎨 Tailwind CSS Setup
+
+Tailwind CSS is already configured.
+
+### Configuration Files
+
+```bash
+tailwind.config.js
+postcss.config.js
+src/index.css
+```
+
+---
+
+# 📦 Dependencies
+
+```json
+{
+  "react": "^18",
+  "react-dom": "^18",
+  "tailwindcss": "^3",
+  "react-icons": "^5"
+}
+```
+
+---
+
+# 📱 Responsive Design
+
+The website is fully responsive and works smoothly on:
+
+- Mobile Devices
+- Tablets
+- Laptops
+- Desktop Screens
+
+---
+
+# 🌐 Deployment
+
+You can deploy this project using:
+
+- Vercel
+- Netlify
+- GitHub Pages
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+## Steps
+
+1. Fork the repository
+
+2. Create a feature branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push branch
+
+```bash
+git push origin feature-name
+```
+
+5. Create Pull Request
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👨‍💻 Author
+
+Developed with ❤️ using React & Tailwind CSS.
