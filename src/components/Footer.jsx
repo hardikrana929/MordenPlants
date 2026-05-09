@@ -1,9 +1,8 @@
-import Button from "./Button";
-
+import { MdCopyright } from "react-icons/md";
 const Footer = () => {
   return (
-    <div className="">
-      <div className="card-bg grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-5 flex items-center justify-between w-full">
+    <div className="card-bg w-full">
+      <div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 flex items-center justify-between p-20">
         <div className="max-w-[400px]">
           <div className="flex items-center gap-2">
             <img
@@ -18,9 +17,9 @@ const Footer = () => {
             crafted to thrive and elevate your living environment."
           </p>
         </div>
-        <div className="max-w-[400px] text-white">
+        <div className="max-w-[400px] text-white text-left">
           <p className="font-bold mb-3">Quick Link's</p>
-          <ul className="underline">
+          <ul className="underline cursor-pointer">
             <li>Home</li>
             <li>Type's of plant's</li>
             <li>Contact</li>
@@ -28,13 +27,34 @@ const Footer = () => {
           </ul>
         </div>
         <div className="max-w-[400px] ">
-          <h1 className="text-xl text-white font-bold">For Every Update.</h1>
-          <div className="flex border-white mt-5 border-2 rounded-[10px] p-1">
-          <input type='email' placeholder="Enter Email" className=" block p-1 w-[100%] bg-transparent focus:outline-none" />
-          <Button className="bg-white text-black font-bold hover:text-blue-700 border-blue-700">
-            Subscribe
-          </Button>
+          <h1 className="text-xl text-white font-bold mb-[60px]">
+            For Every Update.
+          </h1>
+          <div className="flex border-white border rounded-[10px] p-1 items-center justify-center">
+            <input
+              type="email"
+              placeholder="Enter Email"
+              className=" block  w-[100%] bg-transparent focus:outline-none text-white"
+            />
+            <button
+              type="button"
+              className="bg-white text-black font-bold hover:text-blue-700 hover:border-blue-700 border-2 px-3 py-1 rounded-[10px] w-fit"
+            >
+              Subscribe
+            </button>
           </div>
+        </div>
+      </div>
+      <div className="flex items-center justify-between p-20">
+        <div className="flex items-center gap-10">
+          <p className="text-white font-bold ">FB</p>
+          <p className="text-white font-bold ">TW</p>
+          <p className="text-white font-bold ">LI</p>
+        </div>
+        <div className="flex items-center gap-1 text-white">
+          <p>FloraVision</p>
+            <MdCopyright size={15}/>
+          <p>all right reserve</p>
         </div>
       </div>
     </div>
