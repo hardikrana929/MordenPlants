@@ -6,8 +6,8 @@ const Button = ({ children, className = ""}) => {
       type="button"
       className={`
         border
-        px-5
-        py-2
+        px-7
+        py-1
         text-white
         rounded-md
         transition-all

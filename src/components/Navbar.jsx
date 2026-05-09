@@ -17,7 +17,7 @@ const Navbar = () => {
 
         <ul className="hidden lg:flex items-center gap-10 text-sm text-white">
           <li>Home</li>
-          <li className="flex justify-center items-center">Plants Type <span><IoMdArrowDropdown /></span></li>
+          <li className="flex justify-center items-center">Plants Type <span><IoMdArrowDropdown size={20} /></span></li>
           <li>More</li>
           <li>Contact</li>
         </ul>

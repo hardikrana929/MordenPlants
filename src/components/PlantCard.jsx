@@ -64,7 +64,7 @@ const PlantCard = () => {
       <section className="flex items-center justify-center px-6 py-16 w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-[1300px] mx-auto">
           {plantList.map((plant) => (
-            <div key={plant.id} className=" w-[300px] h-[350px]">
+            <div key={plant.id} className=" w-[300px] h-[400px]">
               <div
                 className="glass-card
                 relative h-full                
@@ -100,7 +100,7 @@ const PlantCard = () => {
                       Rs. {plant.price}/-
                     </span>
 
-                    <Button className="px-3">
+                    <Button className="px-4 text-gray-400">
                       <IoBagHandleOutline size={20} />
                     </Button>
                   </div>
