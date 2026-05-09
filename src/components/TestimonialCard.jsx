@@ -32,13 +32,13 @@ const reviewList = [
 ];
 const TestimonialCard = () => {
   return (
-    <div className="card-bg flex items-center justify-center flex-col gap-10 py-10 w-full pt-40">
-      <SectionTitle>Customer Review</SectionTitle>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-20">
+    <div className="card-bg flex items-center justify-center flex-col gap-10 py-10 w-full pt-20 md:pt-32 px-5 overflow-hidden">
+      <SectionTitle className="text-2xl md:text-4xl">Customer Review</SectionTitle>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-14 w-full max-w-7xl place-items-center">
         {reviewList.map((card) => (
           <div
             key={card.id}
-            className=" glass-card relative overflow-hidden rounded-[38px] border w-[300px] h-[300px]"
+            className="glass-card relative overflow-hidden rounded-[38px] border w-full max-w-[300px] min-h-[300px]"
           >
             <div className="relative z-10 px-7 pt-14">
               <div className="flex items-start gap-5">
@@ -63,28 +63,28 @@ const TestimonialCard = () => {
                 </div>
               </div>
 
-              <p className="text-justify text-[#d2d2d2] text-[14px] leading-[22px] mt-6 max-w-[280px]">
+              <p className="text-justify text-[#d2d2d2] text-sm leading-6 mt-6 max-w-full">
                 {card.review}
               </p>
             </div>
           </div>
         ))}
       </div>
-      <section className="mt-20 mb-20 w-full p-10">
+      <section className="mt-16 mb-16 w-full px-5 md:px-10">
         <SectionTitle>Our Best O2</SectionTitle>
-        <div className="glass-big px-5 md:px-10 lg:px-16 pt-32 m-20">
+        <div className="glass-big flex flex-col lg:flex-row items-center justify-between gap-10 px-5 md:px-10 lg:px-16 py-10 md:py-16 mt-16 rounded-[40px]">
           <div>
             <img
               src="https://res.cloudinary.com/ddn203hk8/image/upload/v1778140679/c8eb5b1abede1308e0eaf899d1f7faae62a0c2f6_klqrbq.png"
               alt="deske-decoration"
-              width="400px "
+              className="w-full max-w-[350px] md:max-w-[400px] mx-auto"
             />
           </div>
-          <div className=" flex flex-col gap-5 mb-20">
-            <h3 className="text-gray-300 text-2xl mt-3">
+          <div className="flex flex-col gap-5 w-full max-w-[600px]">
+            <h3 className="text-gray-300 text-2xl md:text-4xl mt-3 leading-snug">
               We Have Small And Best O2 Plants Collection’s
             </h3>
-            <p className="text-gray-300 mt-4">
+            <p className="text-gray-300 mt-4 text-sm md:text-base leading-7">
               Oxygen-producing plants, often referred to as "O2 plants," are
               those that release oxygen into the atmosphere through the process
               of photosynthesis.
@@ -95,11 +95,15 @@ const TestimonialCard = () => {
               makes the air cleaner and healthier to breathe.
             </p>
 
-            <div className="flex gap-8 items-center justify-between">
-              <Button className="w-100% text-gray-400">Explore</Button>
+            <div className="flex sm:flex-row gap-8 items-start sm:items-center justify-between mt-4">
+              <Button className="w-full sm:w-auto text-gray-400">
+                Explore
+              </Button>
               <div className="flex items-center justify-center">
                 <IoIosArrowBack className="text-gray-400" size={25} />
-                <span className="text-gray-300 text-[14px] ml-4 mr-4">01/<small>04</small></span>
+                <span className="text-gray-300 text-[14px] ml-4 mr-4">
+                  01/<small>04</small>
+                </span>
                 <IoIosArrowForward className="text-gray-200" size={25} />
               </div>
             </div>
