@@ -1,3 +1,4 @@
+//Section title component with left and right curve images
 const SectionTitle = ({children},className="") => {
   return (
     <div className={`flex justify-center items-center ${className}`}>

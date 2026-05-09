@@ -26,9 +26,7 @@ const Footer = () => {
 
           <div className="text-white">
             <p className="font-bold mb-4 text-xl">Quick Link's</p>
-
-            {/* CHANGE HERE */}
-            {/* Added spacing */}
+            {/* Nevigation Links */}
             <ul className="space-y-3 underline cursor-pointer">
               <li>Home</li>
               <li>Type's of plant's</li>
@@ -37,13 +35,11 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Subscribe */}
+          {/* Subscribe part*/}
           <div className="w-full">
             <h1 className="text-xl text-white font-bold mb-6">
               For Every Update.
             </h1>
-
-            {/* CHANGE HERE */}
 
             <div className="flex flex-col sm:flex-row gap-3 border border-white rounded-[12px] p-1">
               <input
@@ -62,6 +58,7 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Footer last part */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-5  mt-12 pt-6">
           <div className="flex items-center gap-8">
             <p className="text-white font-bold cursor-pointer">FB</p>

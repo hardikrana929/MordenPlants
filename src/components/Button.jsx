@@ -1,5 +1,4 @@
-// src/components/Button.jsx
-
+//This component is used to crate button
 const Button = ({ children, className = ""}) => {
   return (
     <button

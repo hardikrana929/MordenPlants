@@ -4,6 +4,7 @@ import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { FaCircle } from "react-icons/fa";
 import { TbRectangleFilled } from "react-icons/tb";
 import Button from "./Button";
+//Review card array
 const reviewList = [
   {
     id: 1,
@@ -34,6 +35,7 @@ const TestimonialCard = () => {
   return (
     <div className="card-bg flex items-center justify-center flex-col gap-10 py-10 w-full pt-20 md:pt-32 px-5 overflow-hidden">
       <SectionTitle className="text-2xl md:text-4xl">Customer Review</SectionTitle>
+      {/* Create review cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-14 w-full max-w-7xl place-items-center">
         {reviewList.map((card) => (
           <div
@@ -70,6 +72,7 @@ const TestimonialCard = () => {
           </div>
         ))}
       </div>
+      {/* Best Product section */}
       <section className="mt-16 mb-16 w-full px-5 md:px-10">
         <SectionTitle>Our Best O2</SectionTitle>
         <div className="glass-big flex flex-col lg:flex-row items-center justify-between gap-10 px-5 md:px-10 lg:px-16 py-10 md:py-16 mt-16 rounded-[40px]">

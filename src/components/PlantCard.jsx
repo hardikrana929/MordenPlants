@@ -1,6 +1,8 @@
 import SectionTitle from "./SectionTitle";
 import { IoBagHandleOutline } from "react-icons/io5";
 import Button from "./Button";
+
+//Plant array
 const plantList = [
   {
     id: 1,
@@ -61,6 +63,7 @@ const PlantCard = () => {
   return (
     <div className="card-bg pt-20 w-full">
       <SectionTitle>Our Top Selling Plants</SectionTitle>
+      {/* Top sellnig plants cards */}
       <section className="flex items-center justify-center px-6 py-16 w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-[1300px] mx-auto">
           {plantList.map((plant) => (

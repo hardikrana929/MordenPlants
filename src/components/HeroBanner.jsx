@@ -8,6 +8,7 @@ import Button from "./Button";
 const HeroBanner = () => {
   return (
     <div className="main-bg pb-5">
+      {/* Hero section */}
       <section className="min-h-screen px-5 md:px-10 lg:px-16 pt-32 flex items-start relative">
         <div className="grid lg:grid-cols-2 gap-10 items-center w-full">
           <div>
@@ -74,7 +75,7 @@ const HeroBanner = () => {
 
               <h3 className="text-2xl mt-2 text-gray-300 flex items-center gap-5">
                 Aglaonema plant
-                <span>                  
+                <span>
                   <IoIosArrowForward />
                 </span>
               </h3>
@@ -89,6 +90,8 @@ const HeroBanner = () => {
           </div>
         </div>
       </section>
+
+      {/* Trending plants section */}
       <SectionTitle>Our Trendy plants</SectionTitle>
       <section>
         <div className="glass-big px-5 md:px-10 lg:px-16 pt-32 m-20">
@@ -114,6 +117,7 @@ const HeroBanner = () => {
             </div>
           </div>
         </div>
+        
         <div className="glass-big px-5 md:px-10 lg:px-16 pt-22 m-20">
           <div className=" flex flex-col gap-5">
             <h1 className="text-white text-4xl">For Your Desks Decorations</h1>
