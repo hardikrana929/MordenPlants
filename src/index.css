@@ -4,16 +4,12 @@
 
 body {
   font-family: sans-serif;
-  /* background: #071307; */
-  /* background-image: url("https://res.cloudinary.com/ddn203hk8/image/upload/v1778140657/fa0765984e44f85e1a04562f820f1492949a1257_xjzsnb.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
-  
 }
-
-.card-bg{
-  background-color: #1B2316;
+* {
+  box-sizing: border-box;
+}
+.card-bg {
+  background-color: #1b2316;
 }
 
 .main-bg {
@@ -22,9 +18,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
-  width: 100;
-  /* height: 100vh;
-  width: 100wh; */
+  width: 100%;
+  overflow-y: hidden;
 }
 
 .glass-card {
@@ -34,7 +29,7 @@ body {
   border-radius: 32px;
 }
 
-.glass-big {
+/* .glass-big {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(14px);
@@ -44,8 +39,21 @@ body {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 10px;
+} */
+.glass-big {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
 }
-
 .section-title {
   font-size: 42px;
   text-align: center;
@@ -55,10 +63,11 @@ body {
 @media (max-width: 768px) {
   .glass-big {
     grid-template-columns: 1fr;
+    padding: 24px;
+    border-radius: 32px;
   }
 
   .section-title {
     font-size: 32px;
   }
 }
-

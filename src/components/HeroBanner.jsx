@@ -33,7 +33,7 @@ const HeroBanner = () => {
                 Live Demo...
               </button>
             </div>
-            <div className="glass-card p-4 mt-4 flex flex-col m-width-470px w-fit">
+            <div className="glass-card p-4 mt-4 flex flex-col max-w-[470px] w-fit">
               <div className="flex gap-5">
                 <div>
                   <img
@@ -64,7 +64,9 @@ const HeroBanner = () => {
           </div>
 
           <div className="flex justify-end lg:pr-10 xl:pr-20">
-            <div className="glass-card p-10 w-320px">
+            <div
+              className="glass-card p-10 w-[320px]"
+            >
               <img
                 src="https://res.cloudinary.com/ddn203hk8/image/upload/v1778140679/c8eb5b1abede1308e0eaf899d1f7faae62a0c2f6_klqrbq.png"
                 alt="plant"
@@ -110,14 +112,14 @@ const HeroBanner = () => {
             </p>
             <p className="text-2xl font-bold text-white">Rs.500/-</p>
             <div className="flex gap-8 items-center">
-              <Button className="w-100%">Explore</Button>
+              <Button className="w-full">Explore</Button>
               <Button className="px-2">
                 <IoBagHandleOutline size={20} />
               </Button>
             </div>
           </div>
         </div>
-        
+
         <div className="glass-big px-5 md:px-10 lg:px-16 pt-22 m-20">
           <div className=" flex flex-col gap-5">
             <h1 className="text-white text-4xl">For Your Desks Decorations</h1>
