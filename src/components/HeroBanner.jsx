@@ -112,7 +112,7 @@ const HeroBanner = () => {
             </p>
             <p className="text-2xl font-bold text-white">Rs.500/-</p>
             <div className="flex gap-8 items-center">
-              <Button className="w-full">Explore</Button>
+              <Button className="w-fit">Explore</Button>
               <Button className="px-2">
                 <IoBagHandleOutline size={20} />
               </Button>
@@ -129,7 +129,7 @@ const HeroBanner = () => {
             </p>
             <p className="text-2xl font-bold text-white">Rs.399/-</p>
             <div className="flex gap-8 items-center">
-              <Button className="w-100%">Explore</Button>
+              <Button className="w-fit">Explore</Button>
               <Button className="px-2">
                 <IoBagHandleOutline size={20} />
               </Button>
